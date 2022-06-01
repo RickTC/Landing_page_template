@@ -36,6 +36,7 @@ li {
   background-color: teal;
   color: #fff;
 }
+
 .nav-links a {
   color: #fff;
 }
@@ -124,7 +125,8 @@ input[type="checkbox"] {
 .info--section{
   display: inline-flex;
   justify-content: space-between;
-  margin: 0 5%;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .info--header{
@@ -248,7 +250,10 @@ input[type="checkbox"] {
     margin: 10px 0;
     border-bottom: solid 2px white;
   }
-  
+
+  /* .info--wrapper{
+    padding: 0px;
+  } */
 
 
 }
