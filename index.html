@@ -11,15 +11,13 @@
     <link href="./css/swiper.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar">
+    <nav class="navbar" role="navigation">
         <div class="logo">
             <i class="fa-solid fa-gamepad"></i>
         </div>
-
-        <ul class="nav-links">
+        <ul class="nav-links" id="menu">
             <input type="checkbox" id="checkbox_toggle" />
             <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-        
             <div class="menu">
                 <li> <a href="http://localhost/truskin_training/">Home</a> </li>
                 <li> <a href="http://localhost/truskin_training/">Section 1</a> </li>
@@ -44,33 +42,73 @@
             </div>
         </ul>
     </nav>
-
-  
-
-    <!-- <div class="hero-banner">
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">Slide 1</div>
-              <div class="swiper-slide">Slide 2</div>
-              <div class="swiper-slide">Slide 3</div>
-              <div class="swiper-slide">Slide 4</div>
-              <div class="swiper-slide">Slide 5</div>
-              <div class="swiper-slide">Slide 6</div>
-              <div class="swiper-slide">Slide 7</div>
-              <div class="swiper-slide">Slide 8</div>
-              <div class="swiper-slide">Slide 9</div>
+    <div class="content">
+        <div class="hero-banner">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                </div>
+                <!-- <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div> -->
+                <div class="swiper-pagination"></div> -->
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
-          </div>
+        </div>
+        <div class="info--wrapper">
+            <div class="info--header"> 
+                <h2>Lorem Ipsum</h2>
+                <h3>What is Lorem Ipsum?</h3>
+            </div>
+            <div class="info--section">
+                <div class="info--div">
+                        <span>1</span>
+                        <p>Lorem Ipsum is simply dummy text</p>
+                </div>
+                <div class="info--div">
+                        <span>2</span>
+                        <p>Lorem Ipsum is simply dummy text</p>
+                </div>
+                <div class="info--div">
+                        <span>3</span>
+                        <p>Lorem Ipsum is simply dummy text</p>
+                </div>
+            </div>
+            <div class="info--contact">
+                <div>
+                    <input type="text" class="mail">
+                    <button type="button" class="info--contact__btn">SEND</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- <div class="info--wrapper">
+            <div class="info--section info--img">
+                <img src="./assets/0112-IT-ActualizacionWallpapers-pc.jpg" alt="">
+            </div>
+    
+            <div class="info--section">
+                <div class="info--div"> 
+                    <p class="info">Lorem Ipsum is simply dummy text</p>
+                    <p class="info">note note note note</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="info--wrapper">
+            <div class="info--section">
+                <div class="info--div"> 
+                    <button type="button" class="info--div__btn">Buy</button>
+                    <p class="info">Lorem Ipsum is simply dummy text</p>
+                    <p class="info">note note note note</p>
+                </div>
+            </div>
+        </div> -->
+        
     </div>
-     -->
-    <div class=""></div>
-    <div class=""></div>
+ 
 
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-
     <script src="./js/swiper.js"></script>
  
 </body>
